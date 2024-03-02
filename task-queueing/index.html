@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MUO: Task Queueing</title>
+    <link rel="stylesheet" href="https://sebhein.github.io/main.css" async>
+    <link rel="stylesheet" href="./extra.css" async>
+    <script src="pixi.min.js"></script>
+  </head>
+  <body>
+    <article>
+      <h1>task queue visualization</h1>
+      <h3>before</h3>
+      <div id="slowQueue" class="simulation"></div>
+      <h3>today</h3>
+      <div id="singleQueue" class="simulation"></div>
+      <h3>tomorrow</h3>
+      <h4>using a "fast queue"</h4>
+      <div id="fastQueue" class="simulation"></div>
+      <h4>dedicated servers for queues (slow)</h4>
+      <div id="dedicatedQueueSlow" class="simulation"></div>
+      <h4>dedicated servers for queues (fast)</h4>
+      <div id="dedicatedQueueFast" class="simulation"></div>
+      <h4>arnold palmer (half-n-half queue)</h4>
+      <div id="halfNHalfQueue" class="simulation"></div>
+      <script type="module" src="sim.js"> </script>
+    </article>
+  </body>
+</html>
+
